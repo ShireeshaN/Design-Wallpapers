@@ -414,7 +414,7 @@
     left: 0;
     top: 0;
     border-radius: 10px 10px 0 0;
-    background-color: var(--bs-primary);
+    background-color: #FF0200;
     
 }
 .counter-facts .counter .counter-icon {
@@ -900,3 +900,8 @@
     background: var(--bs-dark) !important;
 }
 /*** copyright end ***/
+
+.logoss{
+    height:100px;
+    width:100%;
+}
