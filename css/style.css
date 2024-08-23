@@ -386,7 +386,7 @@
 /*** Counter Facts Start ***/
 
 .counter-facts {
-    background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, 0.7)), url(../img/counter-bg.jpg);
+    background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, 0.7)), url(../img/dummy/1.png);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -403,7 +403,7 @@
     margin: 0 auto;
     border-radius: 100px;
     box-shadow: 0 8px 5px rgba(0, 0, 0, 0.2);
-    background: var(--bs-white);
+    background: black;
 }
 
 .counter-facts .counter:before {
@@ -904,4 +904,9 @@
 .logoss{
     height:100px;
     width:100%;
+}
+
+.bbb{
+ 
+    height: 100px;
 }
