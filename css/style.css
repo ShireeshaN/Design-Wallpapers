@@ -376,6 +376,15 @@
     background-attachment: fixed;
     
 }
+.bg-breadcrumb-wall{
+    position: relative;
+	padding: 145px 0 50px 0;
+    background:  url(../img/About-images/Picture2.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
 
 @media (max-width: 992px) {
     .bg-breadcrumb {
@@ -1097,4 +1106,11 @@ button:hover {
 .service-head{
     text-align: Center;
     padding-top: 5px;
+}
+
+.inlincolors{
+    color:#C40001;
+}
+.wallpaper-heading{
+    color:#C40001;
 }
