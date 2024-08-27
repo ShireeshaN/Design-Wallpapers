@@ -8244,7 +8244,7 @@ fieldset:disabled .btn {
 }
 
 .fs-5 {
-    font-size: 1.25rem !important
+    font-size: 1rem !important
 }
 
 .fs-6 {
@@ -8475,7 +8475,8 @@ fieldset:disabled .btn {
 }
 
 .rounded {
-    border-radius: 10px !important
+    border-radius: 10px !important;
+    background: black;
 }
 
 .rounded-0 {
