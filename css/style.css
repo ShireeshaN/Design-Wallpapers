@@ -1026,7 +1026,7 @@
     font-size: 30px;
     
     background-color: white;
-    color: #CA6014;
+    color: #C40001;
     border-radius: 80px;
     width:40px;
     height:40px;
@@ -1112,5 +1112,6 @@ button:hover {
     color:#C40001;
 }
 .wallpaper-heading{
-    color:#C40001;
+    color:white;
+    font-weight: bold;
 }
