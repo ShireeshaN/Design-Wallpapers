@@ -800,7 +800,7 @@
     display: block;
     width: 50px;
     height: 50px;
-    background: var(--bs-secondary);
+   
     border-radius: 50%;
     transition: all 300ms;
 }
@@ -811,7 +811,7 @@
     z-index: 3;
     width: 0;
     height: 0;
-    border-left: 23px solid var(--bs-primary);
+  ;
     border-top: 12px solid transparent;
     border-bottom: 12px solid transparent;
     margin-left: 5px;
