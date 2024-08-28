@@ -3,89 +3,161 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQ Section</title>
+    <title>Image Slider with Circular Thumbnails</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="faq-container">
-        <div class="faq-item">
-            <div class="faq-question">
-                <h4>What is your return policy?</h4>
-                <span class="toggle-icon">+</span>
+
+    <div class="image-slider">
+        <!-- Main Image Section with Border Wrapper -->
+        <div class="slides">
+            <div class="border-wrapper active">
+                <img src="img/sofas-services/1.png" class="slide" alt="Image 1">
             </div>
-            <div class="faq-answer">
-                <p>Our return policy allows you to return items within 30 days of purchase. The items must be in their original condition and packaging.</p>
+            <div class="border-wrapper">
+                <img src="img/sofas-services/2.png" class="slide" alt="Image 2">
+            </div>
+            <div class="border-wrapper">
+                <img src="img/sofas-services/3.png" class="slide" alt="Image 3">
+            </div>
+            <div class="border-wrapper">
+                <img src="img/sofas-services/4.png" class="slide" alt="Image 4">
+            </div>
+            <div class="border-wrapper">
+                <img src="img/sofas-services/5.png" class="slide" alt="Image 5">
+            </div>
+            <div class="border-wrapper">
+                <img src="img/sofas-services/6.png" class="slide" alt="Image 6">
+            </div>
+            <div class="border-wrapper">
+                <img src="img/sofas-services/7.png" class="slide" alt="Image 7">
+            </div>
+            <div class="border-wrapper">
+                <img src="img/sofas-services/8.png" class="slide" alt="Image 8">
+            </div>
+            <div class="border-wrapper">
+                <img src="img/sofas-services/9.png" class="slide" alt="Image 9">
+            </div>
+            <div class="border-wrapper">
+                <img src="img/sofas-services/10.png" class="slide" alt="Image 10">
             </div>
         </div>
-        <div class="faq-item">
-            <div class="faq-question">
-                <h4>Do you offer international shipping?</h4>
-                <span class="toggle-icon">+</span>
-            </div>
-            <div class="faq-answer">
-                <p>Yes, we offer international shipping to most countries. Shipping costs and times may vary depending on your location.</p>
-            </div>
+
+        <!-- Circular Thumbnail Images -->
+        <div class="thumbnails">
+            <img src="img/sofas-services/1.png" class="thumbnail active" onclick="showSlide(0)" alt="Thumbnail 1">
+            <img src="img/sofas-services/2.png" class="thumbnail" onclick="showSlide(1)" alt="Thumbnail 2">
+            <img src="img/sofas-services/3.png" class="thumbnail" onclick="showSlide(2)" alt="Thumbnail 3">
+            <img src="img/sofas-services/4.png" class="thumbnail" onclick="showSlide(3)" alt="Thumbnail 4">
+            <img src="img/sofas-services/5.png" class="thumbnail" onclick="showSlide(4)" alt="Thumbnail 5">
+            <img src="img/sofas-services/6.png" class="thumbnail" onclick="showSlide(5)" alt="Thumbnail 6">
+            <img src="img/sofas-services/7.png" class="thumbnail" onclick="showSlide(6)" alt="Thumbnail 7">
+            <img src="img/sofas-services/8.png" class="thumbnail" onclick="showSlide(7)" alt="Thumbnail 8">
+            <img src="img/sofas-services/9.png" class="thumbnail" onclick="showSlide(8)" alt="Thumbnail 9">
+            <img src="img/sofas-services/10.png" class="thumbnail" onclick="showSlide(9)" alt="Thumbnail 10">
         </div>
-        <!-- Add more FAQ items as needed -->
     </div>
-    <script src="script.js"></script>
+    
+
+<script src="script.js"></script>
 </body>
 </html>
 
+
 <style>
-    body {
+    * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
     font-family: Arial, sans-serif;
-}
-
-.faq-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.faq-item {
-    margin-bottom: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-.faq-question {
-    background-color: #f5f5f5;
-    padding: 10px;
-    cursor: pointer;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
 }
 
-.faq-question h4 {
-    margin: 0;
-}
-
-.toggle-icon {
-    font-size: 20px;
-    font-weight: bold;
-    transition: transform 0.3s ease;
-}
-
-.faq-answer {
-    padding: 10px;
-    max-height: 0;
+.image-slider {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
     overflow: hidden;
-    background-color: #fafafa;
-    transition: max-height 0.3s ease;
 }
 
-.faq-answer p {
-    margin: 0;
+.slides {
+    position: relative;
 }
 
-.faq-item.open .faq-answer {
-    max-height: 200px; /* Adjust based on content height */
+.border-wrapper {
+    display: none;
+    padding: 5px;
+    border: 2px solid red;
+    border-radius: 20px;
 }
 
-.faq-item.open .toggle-icon {
-    transform: rotate(45deg); /* Rotate icon on open */
+.border-wrapper.active {
+    display: block;
+}
+
+.slides img {
+    width: 100%;
+    display: block;
+    border-radius: 15px;
+    border: 2px solid red;
+}
+
+.thumbnails {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 0;
+}
+
+.thumbnails img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.thumbnails img.active {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+/* Mobile Responsive Design */
+@media only screen and (max-width: 768px) {
+    .thumbnails img {
+        width: 50px;
+        height: 50px;
+    }
 }
 
 </style>
+
+<script>
+    let currentSlide = 0;
+const slides = document.querySelectorAll('.border-wrapper');
+const thumbnails = document.querySelectorAll('.thumbnail');
+
+function showSlide(index) {
+    slides[currentSlide].classList.remove('active');
+    thumbnails[currentSlide].classList.remove('active');
+
+    currentSlide = index;
+
+    slides[currentSlide].classList.add('active');
+    thumbnails[currentSlide].classList.add('active');
+}
+
+// Initialize the first slide
+showSlide(0);
+
+</script>

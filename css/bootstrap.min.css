@@ -4484,7 +4484,7 @@ fieldset:disabled .btn {
 .navbar {
     position: relative;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: space-between;
     padding-top: .5rem;
@@ -4519,7 +4519,11 @@ fieldset:disabled .btn {
     margin-bottom: 0;
     list-style: none
 }
-
+@media(max-width:992px){
+    .navbar-nav{
+padding-inline: 1rem;
+    }
+}
 .navbar-nav .nav-link {
     padding-right: 0;
     padding-left: 0
@@ -4807,7 +4811,7 @@ fieldset:disabled .btn {
 
 .navbar-light .navbar-toggler {
     color: rgba(0, 0, 0, .55);
-    border-color: rgba(0, 0, 0, .1)
+    /* border-color: rgba(0, 0, 0, .1); */
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -7255,9 +7259,9 @@ fieldset:disabled .btn {
     position: relative !important
 }
 
-.position-absolute {
+/* .position-absolute {
     position: absolute !important
-}
+} */
 
 .position-fixed {
     position: fixed !important
