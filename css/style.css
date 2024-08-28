@@ -1126,3 +1126,57 @@ button:hover {
     color:white;
     font-weight: bold;
 }
+
+.footer {
+    background-color: #000; /* Black background */
+    padding: 3rem 0;
+}
+.footer h4 {
+    color: #fff; /* White text */
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.footer p, .footer a {
+    color: #fff; /* White text */
+    font-size: 0.875rem;
+}
+.footer .btn {
+    background-color: #f00; /* Red color for buttons */
+    border: none;
+    font-size: 1.25rem;
+}
+.footer .btn i {
+    color: #fff; /* White icons */
+}
+.footer .footer-link {
+    color: #fff; /* White text */
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+}
+.footer .footer-link:hover {
+    text-decoration: underline;
+}
+.address-container {
+    position: relative;
+    padding-right: 3rem; /* Space for the map icon */
+}
+.address-container .btn {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+@media (max-width: 768px) {
+    .footer .btn-lg-square {
+        font-size: 1rem;
+        padding: 0.75rem;
+    }
+    .footer h4 {
+        font-size: 1.25rem;
+    }
+    .address-container .btn {
+        position: static;
+        margin-top: 1rem;
+        padding: 0.5rem;
+    }
+}
