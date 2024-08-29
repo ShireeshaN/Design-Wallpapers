@@ -44,8 +44,8 @@
 }
 
 .btn-lg-square {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
 }
 
 .btn-square,
@@ -934,8 +934,8 @@
 
 /*** copyright Start ***/
 .copyright {
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
-    background: var(--bs-dark) !important;
+    border-top: 1px solid black;
+    background: #C40001 !important;
 }
 /*** copyright end ***/
 
@@ -1129,7 +1129,7 @@ button:hover {
 
 .footer {
     background-color: #000; /* Black background */
-    padding: 3rem 0;
+    padding: 1rem 0;
 }
 .footer h4 {
     color: #fff; /* White text */
