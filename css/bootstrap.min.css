@@ -4857,7 +4857,7 @@ padding-inline: 1rem;
 
 .navbar-dark .navbar-toggler {
     color: rgba(255, 255, 255, .55);
-    border-color: rgba(255, 255, 255, .1)
+    /* border-color: rgba(255, 255, 255, .1) */
 }
 
 .navbar-dark .navbar-toggler-icon {
