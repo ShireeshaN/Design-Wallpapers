@@ -1531,3 +1531,16 @@ button:hover {
     font-size:24px ;
 }
 
+
+.team-item {
+    overflow: hidden;
+}
+
+.team-item img {
+    transition: transform 0.5s ease;
+}
+
+.team-item:hover img {
+    transform: scale(1.1); /* Adjust scale value to make the image zoom out */
+}
+
