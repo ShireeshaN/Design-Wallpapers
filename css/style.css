@@ -246,7 +246,8 @@
     }
 
     .navbar-light .navbar-brand img {
-        max-height: 45px;
+        max-height: 55px;
+        width:100%;
     }
 }
 
@@ -1080,6 +1081,7 @@
 .team .team-carousel .team-item:hover .team-img img {
     transform: scale(1.1);
 }
+
 /*** Team End ***/
 
 
@@ -1445,7 +1447,7 @@ input[type="text"], input[type="email"], input[type="tel"] {
 }
 
 button {
-    width: 100%;
+    /* width: 100%; */
     padding: 10px;
     background-color: #CA6014; /* Your preferred button color */
     color: #fff;
