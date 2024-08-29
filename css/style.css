@@ -392,7 +392,7 @@
     background-attachment: fixed;
     
 }
-.bg-breadcrumb-wall{
+.bg-breadcrumb{
     position: relative;
 	padding: 145px 0 50px 0;
     /* background: ; */
@@ -409,6 +409,346 @@
 
 }
 /*** Single Page Hero Header End ***/
+/*** contact ***/
+.bg-breadcrumb-contact {
+	position: relative;
+	padding: 145px 0 50px 0;
+    background: linear-gradient(rgba(242, 139, 0, 0.2), rgba(242, 139, 0, 0.3)), url(../img/wallpapers/9.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.bg-breadcrumb-contact{
+    position: relative;
+	padding: 145px 0 50px 0;
+    /* background: ; */
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+@media (max-width: 992px) {
+    .bg-breadcrumb-contact {
+        padding-top: 50px;
+    }
+
+}
+/*** contact ***/
+
+/*** blog ***/
+.bg-breadcrumb-blog {
+	position: relative;
+	padding: 145px 0 50px 0;
+    background: linear-gradient(rgba(242, 139, 0, 0.2), rgba(242, 139, 0, 0.3)), url(../img/wallpapers/7.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.bg-breadcrumb-blog{
+    position: relative;
+	padding: 145px 0 50px 0;
+    /* background: ; */
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+@media (max-width: 992px) {
+    .bg-breadcrumb-blog {
+        padding-top: 50px;
+    }
+
+}
+/*** blog ***/
+
+/*** grass projects ***/
+.bg-breadcrumb-grass-pro {
+	position: relative;
+	padding: 145px 0 50px 0;
+    background: linear-gradient(rgba(242, 139, 0, 0.2), rgba(242, 139, 0, 0.3)), url(../img/grassfloor/11.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.bg-breadcrumb-grass-pro {
+    position: relative;
+	padding: 145px 0 50px 0;
+    /* background: ; */
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+@media (max-width: 992px) {
+    .bg-breadcrumb-grass-pro  {
+        padding-top: 50px;
+    }
+
+}
+/*** grass projects ***/
+
+/*** sofa projects ***/
+.bg-breadcrumb-sofa-pro {
+	position: relative;
+	padding: 145px 0 50px 0;
+    background: linear-gradient(rgba(242, 139, 0, 0.2), rgba(242, 139, 0, 0.3)), url(../img/sofas-services/10.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.bg-breadcrumb-sofa-pro{
+    position: relative;
+	padding: 145px 0 50px 0;
+    /* background: ; */
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+@media (max-width: 992px) {
+    .bg-breadcrumb-sofa-pro {
+        padding-top: 50px;
+    }
+
+}
+/*** sofa projects ***/
+
+
+/***blinds projects ***/
+.bg-breadcrumb-blinds-pro {
+	position: relative;
+	padding: 145px 0 50px 0;
+    background: linear-gradient(rgba(242, 139, 0, 0.2), rgba(242, 139, 0, 0.3)), url(../img/blinds/3.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.bg-breadcrumb-blinds-pro{
+    position: relative;
+	padding: 145px 0 50px 0;
+    /* background: ; */
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+@media (max-width: 992px) {
+    .bg-breadcrumb-blinds-pro {
+        padding-top: 50px;
+    }
+
+}
+/***blinds projects ***/
+
+/*** curtains projects ***/
+.bg-breadcrumb-curtains-pro {
+	position: relative;
+	padding: 145px 0 50px 0;
+    background: linear-gradient(rgba(242, 139, 0, 0.2), rgba(242, 139, 0, 0.3)), url(../img/curtains-services/3.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.bg-breadcrumb-curtains-pro{
+    position: relative;
+	padding: 145px 0 50px 0;
+    /* background: ; */
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+@media (max-width: 992px) {
+    .bg-breadcrumb-curtains-pro {
+        padding-top: 50px;
+    }
+
+}
+/*** curtains projects ***/
+
+
+
+/***wallpaper-projects ***/
+.bg-breadcrumb-wallpapers-pro {
+	position: relative;
+	padding: 145px 0 50px 0;
+    background: linear-gradient(rgba(242, 139, 0, 0.2), rgba(242, 139, 0, 0.3)), url(../img/wallpapers/2.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.bg-breadcrumb-wallpapers-pro{
+    position: relative;
+	padding: 145px 0 50px 0;
+    /* background: ; */
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+@media (max-width: 992px) {
+    .bg-breadcrumb-wallpapers-pro {
+        padding-top: 50px;
+    }
+
+}
+/***wallpaper-projects ***/
+
+
+/*** wallpaper service ***/
+.bg-breadcrumb-wallpapers {
+	position: relative;
+	padding: 145px 0 50px 0;
+    background: linear-gradient(rgba(242, 139, 0, 0.2), rgba(242, 139, 0, 0.3)), url(../img/wallpapers/8.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.bg-breadcrumb-wallpapers{
+    position: relative;
+	padding: 145px 0 50px 0;
+    /* background: ; */
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+@media (max-width: 992px) {
+    .bg-breadcrumb-wallpapers {
+        padding-top: 50px;
+    }
+
+}
+/*** wallpapers service ***/
+
+/*** grass service ***/
+.bg-breadcrumb-grass {
+	position: relative;
+	padding: 145px 0 50px 0;
+    background: linear-gradient(rgba(242, 139, 0, 0.2), rgba(242, 139, 0, 0.3)), url(../img/grassfloor/6.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.bg-breadcrumb-grass{
+    position: relative;
+	padding: 145px 0 50px 0;
+    /* background: ; */
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+@media (max-width: 992px) {
+    .bg-breadcrumb-grass {
+        padding-top: 50px;
+    }
+
+}
+/*** grass service ***/
+
+/*** sofa service ***/
+.bg-breadcrumb-sofa {
+	position: relative;
+	padding: 145px 0 50px 0;
+    background: linear-gradient(rgba(242, 139, 0, 0.2), rgba(242, 139, 0, 0.3)), url(../img/sofas-services/8.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.bg-breadcrumb-sofa {
+    position: relative;
+	padding: 145px 0 50px 0;
+    /* background: ; */
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+@media (max-width: 992px) {
+    .bg-breadcrumb-sofa  {
+        padding-top: 50px;
+    }
+
+}
+/*** sofa service ***/
+
+.bg-breadcrumb-curtains {
+	position: relative;
+	padding: 145px 0 50px 0;
+    background: linear-gradient(rgba(242, 139, 0, 0.2), rgba(242, 139, 0, 0.3)), url(../img/curtains-services/5.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.bg-breadcrumb-curtains{
+    position: relative;
+	padding: 145px 0 50px 0;
+    /* background: ; */
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+@media (max-width: 992px) {
+    .bg-breadcrumb-curtains {
+        padding-top: 50px;
+    }
+
+}
+/*** curtains service ***/
+
+/*** blinds service ***/
+
+.bg-breadcrumb-blinds {
+	position: relative;
+	padding: 145px 0 50px 0;
+    background: linear-gradient(rgba(242, 139, 0, 0.2), rgba(242, 139, 0, 0.3)), url(../img/blinds/6.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.bg-breadcrumb-blinds{
+    position: relative;
+	padding: 145px 0 50px 0;
+    /* background: ; */
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+@media (max-width: 992px) {
+    .bg-breadcrumb-blinds {
+        padding-top: 50px;
+    }
+
+}
+/*** blinds service ***/
+
 
 
 /*** Counter Facts Start ***/
