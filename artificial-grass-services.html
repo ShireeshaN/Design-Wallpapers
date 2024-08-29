@@ -159,16 +159,44 @@
             <div class="bordered-text">
                 <h3 class="text-white">
                     <span class="fw-normal">Join us today for </span>
-                    <span>Free Shipping & installation</span>
+                    <span>Free Shipping & Installation</span>
                 </h3>
             </div>
-            <a href="#" class="text-white fw-bold fs-2 heartbeat ms-4">
+            <a href="tel:+7675006350" class="text-white fw-bold fs-2 heartbeat ms-4">
                 <i class="fa fa-phone me-1"></i> 767-500-6350
             </a>
         </div>
     </div>
 </div>
 <!-- Banner End -->
+
+<style>
+@keyframes heartbeat {
+    0%, 100% {
+        transform: scale(1);
+    }
+    25%, 75% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+.heartbeat {
+    display: inline-block;
+    animation: heartbeat 1.5s ease-in-out infinite;
+}
+
+.bordered-text {
+    display: inline-block;
+    padding: 10px 20px; /* Space around the text */
+    border: 3px double white; /* Double white border */
+  /* Additional white outline */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Center the text */
+}
+</style>
 
 
 <h3 class="service-head pt-5">Artificial Grass</h3>
