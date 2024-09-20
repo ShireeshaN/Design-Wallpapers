@@ -129,35 +129,16 @@
         <!-- Navbar & Hero End -->
 
         <!-- Header Start -->
-        <div class="container-fluid bg-breadcrumb-contact">
+        <div class="container-fluid than-you">
             <div class="container text-center py-5" style="max-width: 900px;">
-                <h3 class="text-primary display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Contact Us</h1>
-                <ol class="breadcrumb justify-content-center text-white mb-0 wow fadeInDown" data-wow-delay="0.3s">
-                    <li class="breadcrumb-item"><a href="index.html" class="text-dark">Home</a></li>
-                 
-                    <li class="breadcrumb-item active text-primary">Contact</li>
-                </ol>    
+                <h3 class="text-primary display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Thank You Contacting Us!</h1>
+                    <p>We will get back to you as soon as possible</p>
+             
             </div>
         </div>
         <!-- Header End -->
 
-       <!-- Banner Start -->
-<div class="container-fluid bg-secondary wow zoomInDown" data-wow-delay="0.1s">
-    <div class="container">
-        <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center text-center p-5">
-            <div class="bordered-text">
-                <h3 class="text-white">
-                    <span class="fw-normal">Join us today for </span>
-                    <span>Free Shipping & Installation</span>
-                </h3>
-            </div>
-            <a href="tel:+7675006350" class="text-white fw-bold fs-2 heartbeat ms-4">
-                <i class="fa fa-phone me-1"></i> 767-500-6350
-            </a>
-        </div>
-    </div>
-</div>
-<!-- Banner End -->
+ 
 
 <style>
 @keyframes heartbeat {
@@ -171,7 +152,11 @@
         transform: scale(1.2);
     }
 }
-
+.than-you{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
 .heartbeat {
     display: inline-block;
     animation: heartbeat 1.5s ease-in-out infinite;
@@ -188,173 +173,6 @@
 </style>
    
 
-        <!-- Contact Start -->
-        <div class="container-fluid contact py-5">
-            <div class="container py-5">
-                <div class="pb-5">
-                    <h4 class="text-secondary sub-title fw-bold wow fadeInUp" data-wow-delay="0.1s">Contact Us</h4>
-                    <h1 class="display-2 mb-0 wow fadeInUp text-center" data-wow-delay="0.3s">Get In Touch</h1>
-                </div>
-                <div class="bg-light rounded p-4 pb-0">
-                    <div class="row g-5 align-items-center">
-                        <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
-                            <h2 class="display-5 mb-2">Contact Us</h2>
-                            <form method="post" action="//submit.form" onSubmit="return validateForm();">
-                                <div style="max-width: 400px;">
-                                </div>
-                                <div style="padding-bottom: 18px;">
-                                    <!-- Your Name<span style="color: red;"> *</span><br/> -->
-                                <input type="text" id="data_1" name="data_1" placeholder="Your Name" style="max-width : 450px;" class="form-control"/>
-                                </div>
-                                <div style="padding-bottom: 18px;">
-                                    <!-- Email<span style="color: red;"> *</span><br/> -->
-                                <input type="text" id="data_2" name="data_2" placeholder="Your Email" style="max-width : 450px;" class="form-control"/>
-                                </div>
-                                <div style="padding-bottom: 18px;">
-                                    <!-- Phone Number<span style="color: red;"> *</span><br/> -->
-                                <input type="number" id="data_3" name="data_3" placeholder="Your Phone" style="max-width : 450px;" class="form-control"/>
-                                </div>
-                                <div style="padding-bottom: 18px;">
-                                    <!-- Project<br/> -->
-                                <input type="text" id="data_6" name="data_6" placeholder="Project" style="max-width : 450px;" class="form-control"/>
-                                </div>
-                                <div style="padding-bottom: 18px;">
-                                    <!-- Message<br/> -->
-                                <textarea id="data_7" false name="data_7" placeholder="Message" style="max-width : 450px;" rows="6" class="form-control"></textarea>
-                                </div>
-                                <div style="padding-bottom: 18px;"><input class="btn btn-primary w-100 py-3" name="skip_Submit" value="Submit" type="submit"/></div>
-                                <div>
-                                <div style="float:right"><a href="https://www.100forms.com" id="lnk100" title="form to email">form to email</a></div>
-                                <script src="https://www.100forms.com/js/FORMKEY:9FC7FMDH7HAK" type="text/javascript"></script>
-                                </div>
-                                </form>
-                                
-                                <script type="text/javascript">
-                                function validateForm() {
-                                if (isEmpty(document.getElementById('data_1').value.trim())) {
-                                alert('Your Name is required!');
-                                return false;
-                                }
-                                if (isEmpty(document.getElementById('data_2').value.trim())) {
-                                alert('Email is required!');
-                                return false;
-                                }
-                                if (!validateEmail(document.getElementById('data_2').value.trim())) {
-                                alert('Email must be a valid email address!');
-                                return false;
-                                }
-                                if (isEmpty(document.getElementById('data_3').value.trim())) {
-                                alert('Phone Number is required!');
-                                return false;
-                                }
-                                return true;
-                                }
-                                function isEmpty(str) { return (str.length === 0 || !str.trim()); }
-                                function validateEmail(email) {
-                                var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,15}(?:\.[a-z]{2})?)$/i;
-                                return isEmpty(email) || re.test(email);
-                                }
-                                </script>
-                            <!-- <form>
-                                <div class="row g-3">
-                                    <div class="col-lg-12 col-xl-6">
-                                        <div class="form-floating">
-                                            <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                            <label for="name">Your Name</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-xl-6">
-                                        <div class="form-floating">
-                                            <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                            <label for="email">Your Email</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-xl-6">
-                                        <div class="form-floating">
-                                            <input type="phone" class="form-control" id="phone" placeholder="Phone">
-                                            <label for="phone">Your Phone</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-xl-6">
-                                        <div class="form-floating">
-                                            <input type="text" class="form-control" id="project" placeholder="Project">
-                                            <label for="project">Your Project</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-floating">
-                                            <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                            <label for="subject">Subject</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-floating">
-                                            <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 160px"></textarea>
-                                            <label for="message">Message</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <button class="btn btn-primary w-100 py-3">Send Message</button>
-                                    </div>
-                                </div>
-                            </form> -->
-                        </div>
-                        <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
-                           
-                            <div class="d-flex align-items-center mb-5">
-                                <a class="text-dark" href="https://maps.app.goo.gl/hENUWbNWc7zK8YXR9" target="_blank">
-                                <div class="mb-3"><i class="fa fa-map-marker-alt fa-2x text-primary"></i></div>
-                                <div class="ms-4">
-                                    <h4>Addresses</h4>
-                                   <p class="mb-0">501, MN Corner, above Swiss Castle Bakery, Kokapet, Hyderabad, Telangana 500075</p></a>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center mb-5">
-                                <a class="text-dark" href="tel:+7996479999" target="_blank">
-                                <div class="mb-3"><i class="fa fa-phone-alt fa-2x text-primary"></i></div>
-                                <div class="ms-4">
-                                    <h4>Mobile</h4>
-                                    <p class="mb-0" >+799 647 9999</p></a>
-                                    <a class="text-dark" href="tel:+7675006350" target="_blank"><p class="mb-0" >+767 500 6350</p></a>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center mb-5">
-                                <a class="text-dark" href="mailto:info@designwallskokapet.in" target="_blank">
-                                <div class="mb-3"><i class="fa fa-envelope-open fa-2x text-primary" href="mailto:info@designwallpapers.com" target="_blank"></i></div>
-                                <div class="ms-4">
-                                    <h4>Email</h4>
-                                    <p class="mb-0">info@designwallskokapet.in</p></a>
-                                    
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                
-                                <div class="d-flex">
-                                    <a class="btn btn-lg-square btn-primary rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-lg-square btn-primary rounded-circle mx-2" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-lg-square btn-primary rounded-circle mx-2" href=""><i class="fab fa-instagram"></i></a>
-                                    <a class="btn btn-lg-square btn-primary rounded-circle mx-2" href=""><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="rounded h-100 pb-3">
-                                
-                                <iframe  class="rounded w-100" 
-                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7614.903483546637!2d78.3462578!3d17.3900953!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb954d0f0fcdef%3A0xff8c1d5eeca96475!2sDesign%20Walls%20Experience%20Center!5e0!3m2!1sen!2sin!4v1724665086019!5m2!1sen!2sin" 
-                                height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Contact End -->
-         <style>
-            #lnk100 {
-                color: #f4f7fc;
-            }
-         </style>
 <!-- Footer Start -->
 <div class="container-fluid footer py-3  wow fadeIn" data-wow-delay="0.1s">
     <div class="container py-3 ">
